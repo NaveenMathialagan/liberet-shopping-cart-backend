@@ -40,7 +40,7 @@ router.post('/products',async(req,res) => {
         const p = await product.save()
         res.json(p)
     } catch (err) {
-        res.send('Error' +err)
+        res.send('Error'+err)
     }
 })
 
