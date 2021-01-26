@@ -1,0 +1,17 @@
+{
+  "name": "liberet-shopping-cart",
+  "version": "1.0.0",
+  "description": "Liberet Shopping Cart Module",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "author": "Naveen",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.11.13"
+  }
+}
