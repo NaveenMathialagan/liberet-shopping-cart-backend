@@ -48,7 +48,7 @@ router.get('/products',async(req,res) => {
     try{
         const products = await Product.find()
         res.json(products)
-    } catch (err) {
+    }catch (err) {
         res.send('Error' +err)
     }
 })
